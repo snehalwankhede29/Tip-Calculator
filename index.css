@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(47, 46, 45);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 90%;
+    width: 25%;
+    background-color: rgb(178, 189, 186);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    background-image:url("cc.jfif") ;
+    background-size: cover;
+}
+.main2{
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+}
+.sub{
+    height: 80%;
+    width: 100%;
+}
+.head{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+.heading{
+    font-size: 17px;
+    margin-left: 15px;
+}
+.box{
+    height: 35px;
+    width:80%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+.Tip{
+    height: 35px;
+    width:80%;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+.Total{
+    height: 35px;
+    width:80%;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+.btn{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(69, 74, 220);
+    border: none;
+    color: white;
+    text-align: center;
+    
+}
